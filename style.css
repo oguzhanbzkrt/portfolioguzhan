@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(pexels-drift-shutterbug-2085998.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .container{
     width: 80%;
     margin: auto;
 }
 nav{
     width: 100%;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-90deg, transparent 65%, white 35%);
     /* background-color: transparent; */
     /* padding: 1rem; */
 }
@@ -51,8 +57,8 @@ nav{
     display: inline-block;
 }
 .home{
-    height: 89.3vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    height: 89.2vh;
+    background: linear-gradient(-90deg, transparent 65%, white 35%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,12 +91,11 @@ nav{
     font-size: 16px;
     margin-top: 20px;
 }
-/* .home .homeContent{
-    position: absolute;
-    top: 300px;
-    left: 500px;
-} */
+
 .home .homeImage{
+    background-image: url(pexels-drift-shutterbug-2085998.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,9 +103,9 @@ nav{
     /* top: 100px; */
     width: 550px;
     height: 700px;
-    background: #031540;
-    border: 25px solid white;
-    outline: 25px solid #031540;
+    /* background: #031540; */
+    /* border: 25px solid white; */
+    outline: 10px solid rgb(252, 185, 1);
     /* border-radius: 50%; */
 }
 .home .homeImage img{
@@ -121,9 +126,8 @@ nav{
     border: 2px solid white;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #0a66bd;
     margin-left: 12px;
-    /* text-decoration: none; */
     transition: .5s;
 }
 .social ul li a:hover{
