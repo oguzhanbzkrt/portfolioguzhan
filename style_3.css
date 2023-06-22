@@ -7,14 +7,10 @@ body{
     background-image: url(pexels-drift-shutterbug-2085998.jpg);
     background-position: center;
     background-size: cover;
-    /* background-color: rgb(221,221,221); */
 }
 .containerLeft{
     width: 300px;
     height: 100vh;
-    /* background-color: rgb(254,184,61); */
-    /* opacity: 0.8; */
-    /* border: 2px solid red; */
     overflow: hidden;
 }
 .logoLeft img{
@@ -48,22 +44,16 @@ body{
     border: 2px solid rgb(254,184,61);
     border-radius: 20px;
     font-size: 20px;
-    /* font-weight: 600; */
     display: flex;
     padding-top: 30px;
-    /* margin-top: 80px; */
-    /* margin-left: 100px; */
     text-decoration: none;
     position: relative;
     margin-top: 1rem;
     color: whitesmoke;
-    transition: .7s;
 }
-
 .menuLeft ul li a:hover{
     color: rgb(254,184,61);
 }
-
 .aboutHome .box1{
     max-width: 1400px;
     height: 200px;
@@ -83,20 +73,6 @@ body{
     align-items: center;
     padding-top: 20px;
     box-shadow: 0 0 50px;
-}
-.aboutHome .box1 h2{
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
-    color: whitesmoke;
-    font-weight: bold;
-    margin-top: 3rem;
-}
-.aboutHome .box1 p{
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
-    color: whitesmoke;
-    margin-top: 1rem;
-    line-height: 2rem;
 }
 header{
     display: flex;
