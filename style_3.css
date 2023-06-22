@@ -47,9 +47,9 @@ body{
     display: flex;
     padding-top: 30px;
     text-decoration: none;
-    position: relative;
     margin-top: 1rem;
     color: whitesmoke;
+    transition: .7s;
 }
 .menuLeft ul li a:hover{
     color: rgb(254,184,61);
@@ -73,6 +73,7 @@ body{
     align-items: center;
     padding-top: 20px;
     box-shadow: 0 0 50px;
+    margin-bottom: 3rem;
 }
 header{
     display: flex;
@@ -84,4 +85,31 @@ section{
 }
 span{
     color: rgb(254,184,61);
+}
+.parent{
+    color: rgb(254,184,61);
+    /* color: whitesmoke; */
+    font-family: 'Lobster', cursive;
+}
+.parent .project1{
+    color: whitesmoke;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 1400px;
+    height: 150px;
+    /* border: 2px solid red; */
+}
+.parent .project2{
+    color: whitesmoke;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 1400px;
+    height: 150px;
+    /* border: 2px solid rgb(0, 255, 64); */
+}
+.parent .project3{
+    color: whitesmoke;
+    line-height: 1.5rem;
+    height: 150px;
+    /* border: 2px solid rgb(225, 0, 255); */
 }
