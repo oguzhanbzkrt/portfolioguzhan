@@ -45,6 +45,7 @@ body{
 }
 
 .aboutHome .box1 h1{
+    font-family: 'Lobster', cursive;
     font-size: 150px;
     color: whitesmoke;
     display: flex;
@@ -53,7 +54,20 @@ body{
     padding-top: 20px;
     box-shadow: 0 0 50px;
 }
-
+.aboutHome .box1 h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+.aboutHome .box1 p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
 header{
     display: flex;
     
@@ -65,7 +79,3 @@ section{
 span{
     color: rgb(254,184,61);
 }
-
-
-
-
