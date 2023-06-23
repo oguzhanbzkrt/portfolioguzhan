@@ -42,17 +42,19 @@ body{
 .menuLeft ul li a{
     font-family: 'Lobster', cursive;
     border: 2px solid rgb(254,184,61);
-    border-radius: 20px;
+    border-radius: 50px;
     font-size: 20px;
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
     text-decoration: none;
     margin-top: 1rem;
     color: whitesmoke;
     transition: .7s;
 }
 .menuLeft ul li a:hover{
+    background-color: rgb(168, 162, 162);
     color: rgb(254,184,61);
+    font-size: 40px;
 }
 .aboutHome .box1{
     max-width: 1400px;
@@ -88,7 +90,6 @@ span{
 }
 .parent{
     color: rgb(254,184,61);
-    /* color: whitesmoke; */
     font-family: 'Lobster', cursive;
 }
 .parent .project1{
@@ -97,7 +98,6 @@ span{
     margin-bottom: 1rem;
     max-width: 1400px;
     height: 150px;
-    /* border: 2px solid red; */
 }
 .parent .project2{
     color: whitesmoke;
@@ -105,11 +105,29 @@ span{
     margin-bottom: 1rem;
     max-width: 1400px;
     height: 150px;
-    /* border: 2px solid rgb(0, 255, 64); */
 }
 .parent .project3{
     color: whitesmoke;
     line-height: 1.5rem;
     height: 150px;
-    /* border: 2px solid rgb(225, 0, 255); */
 }
+.parent .buton1, .buton2, .buton3{
+    padding: 10px 35px;
+    background: #00abf0;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00abf0;
+    transition: .5s;
+}
+.parent .buton1:hover, .buton2:hover, .buton3:hover{
+    box-shadow: none;
+}
+
+.parent .buton1, .buton2, .buton3{
+    
+    max-width: 1400px;
+    margin-left: 1200px;
+}
+

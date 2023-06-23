@@ -7,14 +7,10 @@ body{
     background-image: url(pexels-drift-shutterbug-2085998.jpg);
     background-position: center;
     background-size: cover;
-    /* background-color: rgb(221,221,221); */
 }
 .containerLeft{
     width: 300px;
     height: 100vh;
-    /* background-color: rgb(254,184,61); */
-    /* opacity: 0.8; */
-    /* border: 2px solid red; */
     overflow: hidden;
 }
 .logoLeft img{
@@ -46,15 +42,11 @@ body{
 .menuLeft ul li a{
     font-family: 'Lobster', cursive;
     border: 2px solid rgb(254,184,61);
-    border-radius: 20px;
+    border-radius: 50px;
     font-size: 20px;
-    /* font-weight: 600; */
     display: flex;
-    padding-top: 30px;
-    /* margin-top: 80px; */
-    /* margin-left: 100px; */
+    padding-top: 20px;
     text-decoration: none;
-    /* position: relative; */
     margin-top: 1rem;
     color: whitesmoke;
     transition: .7s;
@@ -62,6 +54,9 @@ body{
 
 .menuLeft ul li a:hover{
     color: rgb(254,184,61);
+    background-color: rgb(168, 162, 162);
+    color: rgb(254,184,61);
+    font-size: 40px;
 }
 
 .aboutHome .box1{
