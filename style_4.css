@@ -89,54 +89,93 @@ section{
 .cardsParent{
     display: flex;
 }
-
-.ImageGroup1 .image_1{
+.ImageGroup1 .image_1 img{
     margin-left: 3rem;
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup1 .image_2{
+.ImageGroup1 .image_1 img:hover{
+    filter: none;
+}
+.ImageGroup1 .image_2 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup1 .image_3{
+.ImageGroup1 .image_2 img:hover{
+    filter: none;
+}
+.ImageGroup1 .image_3 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup1 .image_4{
+.ImageGroup1 .image_3 img:hover{
+    filter: none;
+}
+.ImageGroup1 .image_4 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.cardsParent .ImageGroup1 {
+.ImageGroup1 .image_4 img:hover{
+    filter: none;
+}
+.cardsParent .ImageGroup1{
     display: flex; 
 }
 .ImageGroup1 a{
     margin-right: 100px;
 }
-.ImageGroup2 .image_5{
+.ImageGroup2 .image_5 img{
     margin-left: 3rem;
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup2 .image_6{
+.ImageGroup2 .image_5 img:hover{
+    filter: none;
+}
+.ImageGroup2 .image_6 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup2 .image_7{
+.ImageGroup2 .image_6 img:hover{
+    filter: none;
+}
+.ImageGroup2 .image_7 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
 }
-.ImageGroup2 .image_8{
+.ImageGroup2 .image_7 img:hover{
+    filter: none;
+}
+.ImageGroup2 .image_8 img{
     width: 250px;
     height: 250px;
     border: 2px solid red;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+.ImageGroup2 .image_8 img:hover{
+    filter: none;
 }
 .cardsParent2 .ImageGroup2 {
     display: flex; 
