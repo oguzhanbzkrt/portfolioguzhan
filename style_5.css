@@ -88,6 +88,27 @@ section{
 span{
     color: rgb(254,184,61);
 }
+input{
+    display: block;
+    width: 200%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+textarea{
+    display: block;
+    margin-bottom: 2rem;
+    width: 200%;
+}
+button{
+    font-size: 20px;
+    padding: 10px 25px;
+    font-family: 'Lobster', cursive;
+}
+.iletisim{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
