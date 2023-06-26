@@ -155,3 +155,31 @@ nav{
     }
 }
 
+@media screen and (max-width:920px) {
+    .menu ul li{
+        display: none;
+    }
+    .home .homeImage {
+        display: none;
+    }
+    body{
+        background-image: url(pexels-drift-shutterbug-2085998.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    nav{
+        background: linear-gradient(-90deg, transparent 65%, transparent 35%);
+    }
+    .home{
+        background: linear-gradient(-90deg, transparent 65%, transparent 35%);
+    }
+    .home .homeContent{
+        display: block;
+    }
+    .home .homeContent h3{
+        font-size: 30px;
+    }
+    .home .homeContent h1{
+        font-size: 40px;
+    }
+}
