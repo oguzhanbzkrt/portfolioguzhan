@@ -192,4 +192,7 @@ nav{
     .menu .list a{
         visibility: visible;
     }
+    .home .homeContent{
+        text-align: left;
+    }
 }

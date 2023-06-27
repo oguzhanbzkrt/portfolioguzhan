@@ -104,3 +104,44 @@ section{
 span{
     color: rgb(254,184,61);
 }
+
+@media screen and (max-width:920px) {
+
+    body{
+        background-image: url(pexels-drift-shutterbug-2085998.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    /* nav{
+        background: linear-gradient(-90deg, transparent 65%, transparent 35%);
+    }
+    .home{
+        background: linear-gradient(-90deg, transparent 65%, transparent 35%);
+    } */
+    nav {
+        display: none;
+    }
+    .about .aboutHome .box1 h1{
+        font-size: 50px; 
+    }
+    
+    .about .box1{
+        height: 100px;
+        margin-top: 2rem;
+        position: relative;
+        
+    }
+    .about .box1 p{
+        position: absolute;
+        left: -80px;
+        top: 240px;
+    }
+    .about .box1 h2{
+        position: absolute;
+        left: -80px;
+    }
+    .about .box1 h2 i{
+        font-size: 30px;
+    }
+    
+}
