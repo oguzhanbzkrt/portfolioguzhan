@@ -127,3 +127,43 @@ section{
     margin-left: 1200px;
 }
 
+@media screen and (max-width:920px) {
+
+    body{
+        background-image: url(pexels-drift-shutterbug-2085998.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    nav {
+        display: none;
+    }
+    .about .box1{
+        height: 50px;
+        margin-top: 100px;
+        position: relative;
+        left: -50px;
+    }
+    .about .aboutHome .box1 h1{
+        font-size: 40px; 
+        left: 40px;
+        position: absolute;
+        bottom: -50px;
+    }
+    .about .aboutHome .box1 .parent{
+        position: absolute;
+        margin-top: 80px;
+        overflow: scroll;
+    }
+    .about .aboutHome .box1 .parent a{
+        display: none;
+    }
+    .about .aboutHome .box1 .parent .project1{
+        overflow: scroll;
+    }
+    .about .aboutHome .box1 .parent .project2{
+        overflow: scroll;
+    }
+    .about .aboutHome .box1 .parent .project3{
+        overflow: scroll;
+    }
+}

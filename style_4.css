@@ -184,3 +184,93 @@ section{
     margin-top: 3rem;
     margin-right: 100px;
 }
+
+@media screen and (max-width:920px) {
+
+    body{
+        background-image: url(pexels-drift-shutterbug-2085998.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    nav {
+        display: none;
+    }
+    .about .box1{
+        height: 50px;
+        margin-top: 100px;
+        position: relative;
+        left: -50px;
+    }
+    .about .aboutHome .box1 h1{
+        font-size: 40px; 
+        left: 80px;
+        position: absolute;
+        bottom: -50px;
+    }
+    .cardsParent .ImageGroup1 .image_1 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: -30px;
+        top: 80px;
+        
+    }
+    .cardsParent .ImageGroup1 .image_2 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 170px;
+        top: 80px;
+    } 
+    .cardsParent .ImageGroup1 .image_3 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 18px;
+        top: 220px;
+    } 
+    .cardsParent .ImageGroup1 .image_4 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 170px;
+        top: 220px;
+    }
+    .cardsParent2 .ImageGroup2 .image_5 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        top: 360px;
+        left: -30px;
+       
+    } 
+    .cardsParent2 .ImageGroup2 .image_6 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 170px;
+        top: 360px; 
+    } 
+    .cardsParent2 .ImageGroup2 .image_7 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 20px;
+        top: 500px;
+    }
+    .cardsParent2 .ImageGroup2 .image_8 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        filter: none;
+        left: 170px;
+        top: 500px; 
+    } 
+}
