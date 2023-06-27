@@ -34,6 +34,13 @@ nav{
     margin-left: 1.5rem;
     transition: .7s;
 }
+
+.menu .list a{
+    visibility: hidden;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
 .menu{
     margin-top: 1.5rem;
 }
@@ -181,5 +188,8 @@ nav{
     }
     .home .homeContent h1{
         font-size: 40px;
+    }
+    .menu .list a{
+        visibility: visible;
     }
 }
